@@ -97,6 +97,9 @@ function spawnPlayer (_class: string) {
     setupHeroStatusBars()
     controller.moveSprite(Hero)
 }
+sprites.onCreated(SpriteKind.Player, function (sprite) {
+	
+})
 let Hero: Sprite = null
 let mage: Sprite = null
 let fighter: Sprite = null
